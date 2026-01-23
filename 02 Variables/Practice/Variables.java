@@ -1,9 +1,18 @@
 public class Variables {
     public static void main(String[] args){
-        int passengers = 5;
-        int busTickets = passengers;
+        // updateing variables
+        int passengers = 0;
 
-        System.out.println(passengers);
-        System.out.println(busTickets);
+        passengers += 9;
+        System.out.printf("There are %d passengers on the bus\n", passengers);
+
+        passengers -= 5;
+        System.out.printf("There are %d passengers on the bus\n", passengers);
+
+        passengers += 4;
+        System.out.printf("There are %d passengers on the bus\n", passengers);
+
+        passengers -= 8;
+        System.out.printf("There are %d passengers on the bus\n", passengers);
     }
 }
